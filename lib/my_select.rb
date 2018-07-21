@@ -10,4 +10,4 @@ def my_select(collection)
   new_collection
 end
   
-my_select()
+(1..10)my_select()
