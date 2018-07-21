@@ -1,10 +1,10 @@
 def my_select(collection)
- # your code here!
- 
-end
+  # your code here!
   i = 0
   while i < array.length do
     yield(array[i])
     i += 1
   end
   array
+end
+  
