@@ -11,4 +11,4 @@ def my_select(collection)
 end
   
 (1..10).select{ |i|  i % 3 == 0 }
-(1..10).my_select({ |i|  i % 3 == 0 })
+(1..10).my_select({ |i|  i % 3 == 0 }
