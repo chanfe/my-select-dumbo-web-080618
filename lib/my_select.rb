@@ -3,6 +3,7 @@ def my_select(collection)
   new_collection = []
   i = 0
   while i < collection.length do
+    if 
     new_collection << Proc.new yield(collection[i])
     puts new_collection
     i += 1
