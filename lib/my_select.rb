@@ -5,7 +5,6 @@ def my_select(collection)
   while i < collection.length do
     if yield(collection[i])
       new_collection << Proc.new )
-    puts new_collection
     i += 1
   end
   new_collection
